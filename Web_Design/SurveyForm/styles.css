@@ -1,0 +1,59 @@
+body {
+    background-color: #c5ae96;
+    Font-family: Georgia;
+  }
+  
+  div {
+    background-color: #78502c;
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    padding: 6px 15px 3px 15px;
+    color: #ececec;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 1rem auto;
+    color: #78502c
+  }
+  
+  label {
+    display: block;
+    margin: 0.4rem 0;
+  }
+  
+  input, textarea, select {
+    min-height: 1.7em;
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color: #ececec;
+    border: 1px solid #ececec;
+  }
+  
+  hr {
+    border: 1.5px double #b78d6a;
+    margin-top: 0.9rem
+  }
+  
+  hr:last-of-type {
+    margin-top: 5px
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.4rem;
+    vertical-align: middle
+  }
+  
+  button {
+    margin: 1rem auto;
+    font-family: Georgia;
+    background-color: #c5ae96;
+    border-color: #78502c;
+    color: #78502c;
+    width: 40%;
+    height: 2rem;
+    font-size: 16px;
+    display: block
+  }
